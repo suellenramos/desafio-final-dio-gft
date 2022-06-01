@@ -9,9 +9,9 @@ import java.util.List;
 
 @Getter
 @Setter
-@Entity
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
 @Table(name = "construtora")
 public class Construtora {
 
@@ -22,7 +22,9 @@ public class Construtora {
     @Column(name="cons_descricao")
     private String descricao;
 
-//    @OneToMany(mappedBy = "construtora", cascade = CascadeType.ALL)
-//    List<Cliente> cLientes = new ArrayList<>();
+    @OneToMany(mappedBy = "construtora")
+    List<Cliente> cLientes;
 
+    @OneToOne
+    Endereco enderecos;
 }

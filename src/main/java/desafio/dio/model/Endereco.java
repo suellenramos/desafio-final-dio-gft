@@ -1,16 +1,15 @@
-package desafio.dio.integracao.viacep.model;
+package desafio.dio.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import javax.persistence.*;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-
-@Getter
-@Setter
 @AllArgsConstructor
+@Getter
+
+@Setter
 @NoArgsConstructor
 @Entity
 public class Endereco {
@@ -26,4 +25,58 @@ public class Endereco {
     private String gia;
     private String ddd;
     private String siafi;
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

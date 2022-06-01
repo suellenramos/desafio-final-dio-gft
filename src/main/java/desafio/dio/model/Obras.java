@@ -1,12 +1,12 @@
 package desafio.dio.model;
 
-import desafio.dio.integracao.viacep.model.Endereco;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -15,7 +15,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "obras")
-public class Obras {
+public class Obras implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

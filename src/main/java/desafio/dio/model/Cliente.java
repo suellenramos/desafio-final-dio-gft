@@ -25,10 +25,10 @@ public class Cliente {
     @Column(name="cli_nome")
     private String nome;
 
-//    @ManyToOne
-//    @JoinColumn(nullable = false)
-//    private Construtora construtora;
+    @ManyToOne
+    @JoinColumn(nullable = false)
+    private Construtora construtora;
 
-//    @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
-//    List<Obras> obrasList = new ArrayList<>();
+    @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
+    List<Obras> obrasList = new ArrayList<>();
 }

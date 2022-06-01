@@ -1,7 +1,6 @@
 package desafio.dio.service;
 
 import desafio.dio.model.Construtora;
-import org.springframework.stereotype.Service;
 
 public interface ConstrutoraService {
 
