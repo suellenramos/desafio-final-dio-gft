@@ -6,3 +6,4 @@
 ## Como a empresa gerencia as obras, as obras possuem endereços, a construtora possui contatos, cotação de materiais pode ter vários pedidos, assim como
 ## como um pedido poderá ter vaŕias cotações.
 ## A versão um apenas tem a configuração do VIACEP e as Entidades, e apenas implementação da interface, ficando as demais implementações para a segunda versão.
+
